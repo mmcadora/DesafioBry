@@ -1,0 +1,13 @@
+MAIN    = $(abspath $(dir $(filter %makedefs, $(MAKEFILE_LIST))))
+SRC    = $(MAIN)/src
+CRYPTO = $(SRC)/crypto
+
+LIBCURL   = curl
+LIBCRYPTO = crypto
+
+INCLUDE            = ./include
+OPENSSL_INCLUDEDIR = /usr/lib/ssl
+
+CXX         = g++
+CXX_VERSION = c++11
+CXXFLAGS    = -Wall -I$(INCLUDE) -I$(OPENSSL_INCLUDEDIR) -l$(LIBCURL) -l$(LIBCRYPTO) -std=$(CXX_VERSION)
