@@ -8,7 +8,7 @@ Instruções:
    2,1 sudo apt-get install libcurl-dev  
    2.2 sudo apt-get install libcurl4-openssl-dev  
    2.3 na pasta raiz da aplicação, execute ./reader  
-   2.4 para executar definindo o caminho para os certificados, pode-se fornecer dois argumentos no ato da execucao forcendo os seus caminhos  
+   2.4 para executar definindo o caminho para os certificados, pode-se fornecer dois argumentos no ato da execucao    
   
 3. Após, para compilar o código, execute os seguintes passos:  
    3.1 abra um terminal dentro do diretório em que está insalado o SSL no sistema (um para versao 1.1.1 e outro para 3.0.1)  
